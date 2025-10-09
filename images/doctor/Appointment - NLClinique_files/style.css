@@ -10562,12 +10562,3 @@ a:hover {
   display: flex;
   flex-direction: column;
 }
-
-#submbtn{
-  margin-top: 23px;
-  padding: 18px 60px;
-  border: 2px solid #0c6d9b;
-  background-color: #0c6d9b;
-  border-radius: 32px;
-  color: white;
-}
