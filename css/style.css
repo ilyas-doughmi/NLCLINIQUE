@@ -10458,7 +10458,10 @@ a:hover {
   justify-content: center;
   padding: 0 120px;
   box-sizing: border-box;
+  position: relative;
 }
+
+
 
 #doctorimg {
   flex: 1;
@@ -10506,7 +10509,7 @@ a:hover {
 .leftappo {
   margin-top: 100px;
   margin-left: 300px;
-  
+
 }
 
 .leftappo h2 {
@@ -10526,31 +10529,33 @@ a:hover {
 }
 
 
-#imgapp img{
+#imgapp img {
   border-radius: 25px;
   margin-top: 50px;
 }
-#rcontent h5{
+
+#rcontent h5 {
   margin-top: 60px;
   font-size: 23px;
 }
-#rcontent h6{
+
+#rcontent h6 {
   margin-top: 10px;
   font-size: 17px;
 }
 
 
-#appform{
+#appform {
   margin-top: 50px;
 }
 
 
-#inputapp{
+#inputapp {
   display: flex;
   gap: 60px;
 }
 
-#appform input{
+#appform input {
   margin-top: 12px;
   border-radius: 18px;
   padding: 18px 90px 18px 29px;
@@ -10558,16 +10563,101 @@ a:hover {
   justify-content: center;
 }
 
-#inputlabel{
+#inputlabel {
   display: flex;
   flex-direction: column;
 }
 
-#submbtn{
+#submbtn {
   margin-top: 23px;
   padding: 18px 60px;
   border: 2px solid #0c6d9b;
   background-color: #0c6d9b;
   border-radius: 32px;
   color: white;
+}
+
+/* new home page hero styles*/
+
+.homehero {
+  height: 80vh;
+  background: linear-gradient(135deg, #ECF3FE, #d7e8fa);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 120px;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+
+#titlehero h2 {
+  font-size: 75px;
+  font-weight: 590;
+  color: #214462;
+  letter-spacing: 2px;
+}
+
+#titlehero p {
+
+  width: 80%;
+  max-width: 780px;
+  font-size: 18px;
+  line-height: 1.4;
+  color: #2a2a2a;
+  font-weight: 300;
+  margin-top: 30px;
+}
+
+#titlehero button {
+  margin-top: 25px;
+  margin-right: 12px;
+  padding: 25px;
+  border-radius: 8px;
+  font-weight: 500;
+}
+
+#tophero {
+  display: flex;
+  gap: 23px;
+
+}
+
+#line {
+  margin-bottom: 155px;
+
+}
+
+#lefthero h5 {
+  margin-bottom: 12px;
+  font-size: 20px;
+  font-weight: 200;
+  letter-spacing: 4px;
+
+}
+
+#ctnbtn {
+  background: #FDFFFF;
+  border: 1px solid black;
+  transition: 0.3s;
+}
+
+#ctnbtn:hover {
+  background-color: #0349DA;
+  color: white;
+}
+
+#appbtn {
+  background-color: #0349DA;
+  color: white;
+  border: 0px solid black;
+  transition: 0.3s;
+}
+
+#appbtn:hover {
+  background-color: white;
+  color: #0349DA;
+  border: 1px solid black;
+  transform: scale(1.05);
+
 }
