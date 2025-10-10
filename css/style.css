@@ -10550,7 +10550,7 @@ a:hover {
 }
 
 
-#inputapp {
+.inputapp {
   display: flex;
   gap: 60px;
 }
@@ -10563,7 +10563,7 @@ a:hover {
   justify-content: center;
 }
 
-#inputlabel {
+.inputlabel {
   display: flex;
   flex-direction: column;
 }
@@ -10639,7 +10639,7 @@ a:hover {
 #ctnbtn {
   background: #FDFFFF;
   border: 1px solid black;
-  transition: 0.3s;
+  transition: 0.2s;
 }
 
 #ctnbtn:hover {
@@ -10651,13 +10651,11 @@ a:hover {
   background-color: #0349DA;
   color: white;
   border: 0px solid black;
-  transition: 0.3s;
+  transition: 0.2s;
 }
 
 #appbtn:hover {
   background-color: white;
   color: #0349DA;
   border: 1px solid black;
-  transform: scale(1.05);
-
 }
